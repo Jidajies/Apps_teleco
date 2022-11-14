@@ -1,0 +1,27 @@
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.pregresp {
+    border: 1px solid #7DA5E0;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    }
+        
+    .pregunta {
+    color: #7DA5E0;
+    }
+        
+    .respuestas {
+    color: #000000;
+    }

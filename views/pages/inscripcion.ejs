@@ -1,0 +1,89 @@
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inscription Page</title>
+
+    <script type="text/javascript" src="funciones.js"></script>
+   <!--Made with love by Mutiullah Samim -->
+   
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="css/styles1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well well-sm">
+                    <form class="form-horizontal" action="/enviar" method="POST">
+                        <fieldset>
+                            <legend class="text-center header">Ingrese sus Datos de Contacto</legend>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fas fa-user-tie"></i></span>
+                                <div class="col-md-8">
+                                    <input id="fname" name="fname" type="text" placeholder="Nombre" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fas fa-user-edit"></i></span>
+                                <div class="col-md-8">
+                                    <input id="lname" name="lname" type="text" placeholder="Apellido" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-open"></i></span>
+                                <div class="col-md-8">
+                                    <input id="email" name="email" type="text" placeholder="Dirección Email" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fas fa-phone"></i></span>
+                                <div class="col-md-8">
+                                    <input id="telefono" name="telefono" type="text" placeholder="Teléfono" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fas fa-street-view"></i></span>
+                                <div class="col-md-8">
+                                    <input id="numero" name="numero" type="text" placeholder="Número empleado" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fas fa-unlock-alt"></i></span>
+                                <div class="col-md-8">
+                                    <input id="contrasena" name="contrasena" type="text" placeholder="Contraseña" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg" >Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function enviar(){
+
+    }
+</script>
